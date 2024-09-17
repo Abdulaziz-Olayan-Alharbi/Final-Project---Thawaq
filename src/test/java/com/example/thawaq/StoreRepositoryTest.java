@@ -16,7 +16,7 @@ import java.util.List;
 @ExtendWith(SpringExtension.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-public class StoreRepositoryTest {
+public class StoreRepositoryTest {                              //Test Made By Abdulaziz Alharbi
     @Autowired
     StoreRepository storeRepository;
 
